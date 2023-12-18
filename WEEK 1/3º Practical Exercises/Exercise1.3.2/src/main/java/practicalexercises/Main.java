@@ -1,7 +1,6 @@
 package practicalexercises;
 
 import practicalexercises.models.Person;
-
 import java.util.Random;
 
 public class Main {
