@@ -3,17 +3,17 @@ package practicalexercises.models;
 import java.util.UUID;
 
 public class Animal {
-    private String name;
-    private int age;
-    private String skinType;
-    private String feeding;
-    private String id;
+    String name;
+    int age;
+    String skinType;
+    String feeding;
+    String id;
     
     public final String setId() {
         return UUID.randomUUID().toString();        
     }
 
-    private Animal(String name, int age, String skinType, String feeding) {
+    public Animal(String name, int age, String skinType, String feeding) {
         this.id = this.setId();
         this.name = name;
         this.age = age;
