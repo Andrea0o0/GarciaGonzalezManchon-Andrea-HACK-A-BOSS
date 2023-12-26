@@ -69,10 +69,4 @@ public class Student implements Serializable {
 }
 
 
-//Create an application to manage a list of students in a database. Students will have attributes such as id, name, age and grade.
-//
-//The system must be able to allow adding new students, retrieving everyone's list and displaying their information.
-//
-//Create a database using MySQL called university and a table called students whose columns match the attributes of the student class.
-//
-//Use JDBC (Java Database Connectivity) to interact with the database.
+

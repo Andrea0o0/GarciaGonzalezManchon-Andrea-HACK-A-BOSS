@@ -14,10 +14,12 @@ public class Exercise1 {
                 23, 
                 10.0);
         
+        // Command to reset testing:
+        controller.destroyStudents();
         
         controller.createStudent(student);
         controller.allStudents();
         controller.findStudent(1);
-        controller.destroyStudents();
+        
     }
 }
