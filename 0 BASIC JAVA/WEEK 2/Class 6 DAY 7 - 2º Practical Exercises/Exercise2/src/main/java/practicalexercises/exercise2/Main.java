@@ -32,11 +32,8 @@ public class Main {
             maxStock = maxStock.getStock() > product.getStock() ? maxStock: product;
         }
         
-        System.out.println(products);
         maxStock.setStock(maxStock.getStock()-3);
-        System.out.println(products);
-//        for(Product product : products){
-//            
-//        }
+        System.out.println("Deducted 3 units from " + maxStock.getName() + " stock. Updated record.");
+        
     }
 }
