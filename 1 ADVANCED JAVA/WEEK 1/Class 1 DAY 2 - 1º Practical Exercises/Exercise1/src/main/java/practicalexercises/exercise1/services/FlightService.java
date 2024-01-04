@@ -3,7 +3,6 @@ package practicalexercises.exercise1.services;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -16,6 +15,7 @@ public class FlightService {
     Map<String,Integer> availableSeats = new HashMap<String,Integer>();
     int maxSeats = 150;
     Scanner scanner = new Scanner(System.in);
+    
     
     public Map<String,Integer> creatingMap(String month, Integer daysMonth) {
         Map<String, Integer> months = new HashMap<>();
