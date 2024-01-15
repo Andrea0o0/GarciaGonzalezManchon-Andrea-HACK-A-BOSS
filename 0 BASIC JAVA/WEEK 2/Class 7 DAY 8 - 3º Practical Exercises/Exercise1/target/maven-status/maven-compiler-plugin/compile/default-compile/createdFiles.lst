@@ -1,0 +1,8 @@
+practicalexercises\exercise1\persistence\ControllerPersistence.class
+practicalexercises\exercise1\models\Student_.class
+practicalexercises\exercise1\persistence\exceptions\IllegalOrphanException.class
+practicalexercises\exercise1\Exercise1.class
+practicalexercises\exercise1\persistence\exceptions\NonexistentEntityException.class
+practicalexercises\exercise1\persistence\exceptions\PreexistingEntityException.class
+practicalexercises\exercise1\models\Student.class
+practicalexercises\exercise1\persistence\StudentJpaController.class

@@ -1,0 +1,9 @@
+practicalexercises\exercise2\persistence\exceptions\NonexistentEntityException.class
+practicalexercises\exercise2\models\Food_.class
+practicalexercises\exercise2\persistence\FoodJpaController.class
+practicalexercises\exercise2\persistence\exceptions\IllegalOrphanException.class
+practicalexercises\exercise2\Exercise2.class
+practicalexercises\exercise2\Menu.class
+practicalexercises\exercise2\persistence\exceptions\PreexistingEntityException.class
+practicalexercises\exercise2\models\Food.class
+practicalexercises\exercise2\persistence\ControllerPersistence.class
