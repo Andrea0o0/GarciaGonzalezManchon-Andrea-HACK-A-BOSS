@@ -12,11 +12,11 @@ pom.xml.tag
 pom.xml.releaseBackup
 pom.xml.versionsBackup
 pom.xml.next
+pom.xml
 /.mvn
 /.maven
 /.repository
 .flattened-pom.xml
-/1 ADVANCED JAVA
 /0 BASIC JAVA/WEEK 2/Exercise1.2.1/nbproject/private/
 /0 BASIC JAVA/WEEK 2/Exercise1.2.1/build/
 /0 BASIC JAVA/WEEK 2/Second Class - DAY 6/nbproject/private/
