@@ -1,0 +1,119 @@
+{
+	"info": {
+		"_postman_id": "88b6b003-3f73-404f-b1a0-fb6332811f90",
+		"name": "EVENT - HAB - Exercise 1",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "31593859"
+	},
+	"item": [
+		{
+			"name": "EVENT",
+			"item": [
+				{
+					"name": "CREATE EVENT + SPEAKER",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"title\": \"title0\",\r\n    \"description\": \"description0\",\r\n    \"dateEvent\": \"2024-01-29\",\r\n    \"hourEvent\": \"10:00\",\r\n    \"place\": \"place0\",\r\n    \"speaker\": {\r\n        \"nameSpeaker\": \"speaker0\",\r\n        \"surnameSpeaker\": \"surname0\",\r\n        \"profession\": \"profession0\"\r\n    }\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "localhost:8080/api/event"
+					},
+					"response": []
+				},
+				{
+					"name": "GET EVENTS",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "localhost:8080/api/events"
+					},
+					"response": []
+				},
+				{
+					"name": "DELETE EVENT",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": "localhost:8080/api/eventDelete/323500"
+					},
+					"response": []
+				},
+				{
+					"name": "EDIT EVENT",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"title\": \"titleEdited\",\r\n    \"description\": \"descriptionEdited\",\r\n    \"dateEvent\": \"2024-01-29\",\r\n    \"hourEvent\": \"10:00\",\r\n    \"place\": \"placeEdited\",\r\n    \"speaker\": {\r\n        \"nameSpeaker\": \"speakerEdited\",\r\n        \"surnameSpeaker\": \"surnameEdited\",\r\n        \"profession\": \"professionEdited\"\r\n    }\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "localhost:8080/api/editEvent/323500"
+					},
+					"response": []
+				},
+				{
+					"name": "GET ONE EVENT",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "localhost:8080/api/event/614658"
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "SPEAKER",
+			"item": [
+				{
+					"name": "CREATE SPEAKER",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"nameSpeaker\": \"speaker0\",\r\n    \"surnameSpeaker\": \"surname0\",\r\n    \"profession\": \"profession0\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "localhost:8080/api/speaker"
+					},
+					"response": []
+				},
+				{
+					"name": "GET SPEAKERS",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "localhost:8080/api/speakers"
+					},
+					"response": []
+				},
+				{
+					"name": "GET ONE SPEAKER",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "localhost:8080/api/speaker/189802"
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
